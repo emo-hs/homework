@@ -1,10 +1,8 @@
 # homework_week_one
-
+![logo](https://photos.angel.co/startups/i/76411-8fb81283787126857f745dd7a7e84343-medium_jpg.jpg?buster=1422060495)
 # Reserach of Trulioo 
 
 ### *Shan Han* 
-
-![logo](https://photos.angel.co/startups/i/76411-8fb81283787126857f745dd7a7e84343-medium_jpg.jpg?buster=1422060495)
 
 ## Overview and Origin
 
