@@ -45,3 +45,18 @@ Although Trulioo may have one of the largest data sources in identity verificati
 
 By leveraging this new technology, all of the private information used for identity verification such as name, unique identity or social security number, and biometric data.would be stored decentralized. A private key is assigned to the owner for every piece of data that makes this person the only possesser. In this manner, whenever users of system require an identity proof, people simply need to grant access to them by using private keys. And as all information is encrypted stored on the blockchain, there is no need to worry about the authenticity of information. The nature of decentralization and cryptographically secured credentials can guarantee it is almost impossible to steal or fake the data. 
 
+## Reference List
+https://photos.angel.co/startups/i/76411-8fb81283787126857f745dd7a7e84343-medium_jpg.jpg?buster=1422060495
+CNBC DISRUPTOR 50: https://www.cnbc.com/2020/06/16/trulioo-disruptor-50.html
+REGTECH SUPPIER PERFORMANCE REPORT: https://www.trulioo.com/blog/regtech-supplier-performance-report-2019
+Trulioo: https://www.trulioo.com/resources/faqs
+Trulioo FAQ: https://www.trulioo.com/resources/faqs
+DEVELPOR PORTAL: https://developer.trulioo.com/v1.0/reference#technical-overview
+New Trulioo image capture SDK: https://www.biometricupdate.com/202002/new-trulioo-image-capture-sdk-to-help-ease-id-document-verification-and-workflow
+Trulioo Privcy Policy: https://www.trulioo.com/privacy
+regtech100: https://fintech.global/regtech100/wp-content/uploads/2019/12/RegTech100_2020_Summary.pdf
+RegTech Analyst: http://member.regtechanalyst.com/large-deals-over-50m-drive-global-regtech-investment-to-over-17bn-since-2015/
+WHAT IS REGTECH?: https://builtin.com/fintech/regtech-companies
+Fintech Global: https://member.fintech.global/wp-content/uploads/sites/3/2020/01/Annual-RegTech.jpg
+The Global RegTech Industry Benchmark Report: https://regtech.org.au/resources/Documents/2019-ccaf-global-regtech-benchmarking-report.pdf
+Blockchain in Digital Identity: https://consensys.net/blockchain-use-cases/digital-identity/
