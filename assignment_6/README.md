@@ -18,6 +18,14 @@ You can navigate through the tabs in dashboard to explore more details about the
 
 ## Setup
 
-You need to create an account at mapbox and create an access token in order to run maps visualizations using Plotly Express.
+You need to create an account at [mapbox](https://www.mapbox.com/) and [create an access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/#creating-and-managing-access-tokens) in order to run maps visualizations using Plotly Express.
 
 The project is configured through environment variables set in the .env file.
+
+## Data Source
+
+The data provided for this project was retrieved from the following websites:
+
+* [Toronto Open Data](https://open.toronto.ca/)
+
+* [Census Profile, 2016 Census - Toronto Metropolitan Area, Ontario and Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMACA&Code1=535&Geo2=PR&Code2=01&SearchText=toronto&SearchType=Begins&SearchPR=01&B1=All&TABID=1&type=0)
