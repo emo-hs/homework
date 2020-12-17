@@ -81,7 +81,7 @@ GROUP BY b.name
 ORDER BY COUNT(a.card) DESC
 LIMIT 5;
 
--- Create transactions less 2 view
+-- Create top 5 merchants be hacked view
 CREATE VIEW top_5_merchants AS
 SELECT b.name, COUNT(a.card) as number_of_transacations
 FROM transaction AS a
