@@ -6,9 +6,13 @@ Creating an entity relationship diagram(ERD) by applying [Quick Database Diagram
 
 
 [cardholder_transactions_number.csv](Data/cardholder_transactions_number.csv)
+
 [transactions_less_2.csv](Data/transactions_less_2.csv)
+
 [top_100_transactions.csv](Data/top_100_transactions.csv)
+
 [top_100_transactions_other.csv](Data/top_100_transactions_other.csv)
+
 [top_5_merchants.csv](Data/top_5_merchants.csv)
 
 ## Data Analysis
@@ -23,14 +27,14 @@ In [top_5_merchants.csv](Data/top_5_merchants.csv), Wood-Ramirez, Hood-Phillips,
 
 We combined [credit_card.csv](Data/credit_card.csv) and [transaction.csv](Data/transaction.csv) data to plot the consumption patterns of both cardholder 2 and 18. 
 
-![cardholder_2](Images/cardholder2)
+![cardholder_2](Images/cardholder2.png)
 
-![cardholder_18](Images/cardholder18)
+![cardholder_18](Images/cardholder18.png)
 
 It can easily find that the transactions made by cardholder 2 fluctuated around a mean value, while the costs of cardholder_18 transactions is in a completely different pattern. It has much more outliers which are large transactions made after several small transcations. This pattern is a sign that this customer's credit card is very likely to be hacked. This conculsion can be observed more easily in the combined chart below.
 
-![combined_chart](Images/combine)
+![combined_chart](Images/combine.png)
 
 A box plot for cardholder 25 transactions in first half year of 2018 is also created to see the outliers more conviniently. We can find there are nine outliers in this dataset and 7 of them were made after April. Moreover the amount of each transaction became much higher each month after April with the highest one ($1813) spend in June. This anomalies shows this people's card may be hacked since April 2018. 
 
-![box_plot_25](Images/cardholder25)
+![box_plot_25](Images/cardholder25.png)
