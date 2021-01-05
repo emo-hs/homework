@@ -27,9 +27,7 @@ In [top_5_merchants.csv](Data/top_5_merchants.csv), Wood-Ramirez, Hood-Phillips,
 
 We combined [credit_card.csv](Data/credit_card.csv) and [transaction.csv](Data/transaction.csv) data to plot the consumption patterns of both cardholder 2 and 18. 
 
-![cardholder_2](Images/cardholder2.png)
-
-![cardholder_18](Images/cardholder18.png)
+![cardholder_2](Images/cardholder2.png); ![cardholder_18](Images/cardholder18.png)
 
 It can easily find that the transactions made by cardholder 2 fluctuated around a mean value, while the costs of cardholder_18 transactions is in a completely different pattern. It has much more outliers which are large transactions made after several small transcations. This pattern is a sign that this customer's credit card is very likely to be hacked. This conculsion can be observed more easily in the combined chart below.
 
