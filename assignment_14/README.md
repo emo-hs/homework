@@ -27,12 +27,14 @@ Finally, use the testing data to evaluate each model and compare the performance
 
 Use the above to answer the following:
 
-> Which model has a lower loss?
-> Using closing price to predict bitcoin price has a lower loss compare to using FNG values
-> Which model tracks the actual values better over time?
-> Both models cannot predict actual values very well, but closing price can track the trend much better than FNG.
-> Which window size works best for the model?
-> The lower the window size, the better the model performance. When window size equals to one, the loss of both models are smallest 
+* Which model has a lower loss?
+* Using closing price to predict bitcoin price has a lower loss compare to using FNG values
+
+* Which model tracks the actual values better over time?
+* Both models cannot predict actual values very well, but closing price can track the trend much better than FNG.
+
+* Which window size works best for the model?
+* The lower the window size, the better the model performance. When window size equals to one, the loss of both models are smallest 
 
 
 
