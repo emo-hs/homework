@@ -1,0 +1,26 @@
+--------------------------------------------
+NEW
+-----------
+./geth account new --datadir node1
+PUBLIC KEY: 1A2529ee9B369E37753CcDACCF40F760841856db
+
+./geth account new --datadir node2
+PUBLIC KEY: CfCC8CE0b32f28efedC1D9634A380ABD65e8de89
+
+self=enode://6e56de96b156025bc9e8a1cca6aa63c31fd65da94bbba99cb218b5089732ae3505773d71705d252aa020606f519c2a32518912c3e3e2446ceda2e52629c06251@127.0.0.1:30303
+--------------------------------------------
+./geth init paulhan/paulhan.json --datadir node1
+./geth init paulhan/paulhan.json --datadir node2
+
+----------------------------------------
+http://127.0.0.1:8545
+----------------------------------------
+
+./geth --datadir node1 --unlock "1A2529ee9B369E37753CcDACCF40F760841856db" --mine --rpc --allow-insecure-unlock
+./geth --datadir node2 --unlock "CfCC8CE0b32f28efedC1D9634A380ABD65e8de89" --mine --port 30304 --bootnodes "enode://6e56de96b156025bc9e8a1cca6aa63c31fd65da94bbba99cb218b5089732ae3505773d71705d252aa020606f519c2a32518912c3e3e2446ceda2e52629c06251@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+-----------------
+
+Secrets:
+1. no firewall
+2. connect by priavte key

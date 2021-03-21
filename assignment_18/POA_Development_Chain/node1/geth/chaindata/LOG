@@ -1,0 +1,50 @@
+=============== Mar 21, 2021 (AEDT) ===============
+18:10:20.485984 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:10:20.548101 db@open opening
+18:10:20.551101 version@stat F·[] S·0B[] Sc·[]
+18:10:20.611145 db@janitor F·2 G·0
+18:10:20.611145 db@open done T·63.0438ms
+18:10:20.621153 db@close closing
+18:10:20.639182 db@close done T·18.0281ms
+=============== Mar 21, 2021 (AEDT) ===============
+18:10:49.039191 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:10:49.041193 version@stat F·[] S·0B[] Sc·[]
+18:10:49.041193 db@open opening
+18:10:49.041193 journal@recovery F·1
+18:10:49.056202 journal@recovery recovering @1
+18:10:49.144097 memdb@flush created L0@2 N·15 S·1021B "\x13\x01L..(M\xf3,v4":"sec..\x16̣,v2"
+18:10:49.159107 version@stat F·[1] S·1021B[1021B] Sc·[0.25]
+18:10:49.442326 db@janitor F·3 G·0
+18:10:49.442326 db@open done T·401.1332ms
+18:10:49.978190 table@compaction range L-1 "a":"b"
+18:10:49.978190 table@compaction L0·1 -> L1·0 S·1021B Q·21
+18:10:50.028225 table@build created L1@5 N·15 S·1021B "\x13\x01L..(M\xf3,v4":"sec..\x16̣,v2"
+18:10:50.037232 version@stat F·[0 1] S·1021B[0B 1021B] Sc·[0.00 0.00]
+18:10:50.077260 table@compaction committed F~ S~ Ke·0 D·0 T·99.0702ms
+18:10:50.112285 memdb@flush N·7 S·464B
+18:10:50.208353 memdb@flush created L0@7 N·7 S·609B "Dat..ion,v17":"unc..own,v23"
+18:10:50.208353 version@stat F·[1 1] S·1KiB[609B 1021B] Sc·[0.25 0.00]
+18:10:50.266395 memdb@flush committed F·1 T·154.1096ms
+18:10:50.268395 journal@remove removed @3
+18:10:50.268395 table@compaction range L-1 "o":"p"
+18:10:50.268395 table@compaction L0·1 -> L1·1 S·1KiB Q·23
+18:10:50.313427 table@build created L1@8 N·20 S·1KiB "\x13\x01L..(M\xf3,v4":"unc..own,v23"
+18:10:50.313427 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+18:10:50.363463 table@compaction committed F-1 S-253B Ke·0 D·2 T·95.0673ms
+18:10:50.366465 table@remove removed @7
+18:10:50.368467 table@remove removed @5
+18:28:27.429470 db@close closing
+18:28:27.439478 db@close done T·10.0075ms
+=============== Mar 21, 2021 (AEDT) ===============
+18:29:01.500421 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:29:01.501424 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+18:29:01.502424 db@open opening
+18:29:01.502424 journal@recovery F·1
+18:29:01.515431 journal@recovery recovering @6
+18:29:01.590143 memdb@flush created L0@9 N·16 S·853B "H\xed\xe5..!e\xc9,v29":"unc..own,v39"
+18:29:01.604135 version@stat F·[1 1] S·2KiB[853B 1KiB] Sc·[0.25 0.00]
+18:29:01.685195 db@janitor F·5 G·1
+18:29:01.685195 db@janitor removing table-2
+18:29:01.686193 db@open done T·183.7682ms
+18:31:43.329342 db@close closing
+18:31:43.338349 db@close done T·9.0068ms
