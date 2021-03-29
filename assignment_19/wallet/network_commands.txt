@@ -1,0 +1,28 @@
+--------------------------------------------
+NEW
+-----------
+./../../Blockchain-Tools/geth account new --datadir node1
+
+PUBLIC KEY: 8520A7FBC4661502822246E2171E789867Bc3272
+node 1 2ADa2B0F958d7C5C4bcC6834a7Cee1862dD72C7D
+
+./../../Blockchain-Tools/geth account new --datadir node2
+node 2 D40629c45138FD6f9cf7352fe85D85f6A0110aB2
+
+self=enode://5cf310ee9fa03951cf882f3bb8b350a209cbee380501f50b2121f75213828b6c84e5e5188701330e9238d4c2383a4bdd93e97479bdab3568c40e1d2f3ce72929@127.0.0.1:30303
+--------------------------------------------
+./../../Blockchain-Tools/geth init yy/yy.json --datadir node1
+./../../Blockchain-Tools/geth init yy/yy.json --datadir node2
+
+----------------------------------------
+http://127.0.0.1:8545
+----------------------------------------
+CfCC8CE0b32f28efedC1D9634A380ABD65e8de89
+./../../Blockchain-Tools/geth --datadir node1 --unlock "2ADa2B0F958d7C5C4bcC6834a7Cee1862dD72C7D" --mine --rpc --allow-insecure-unlock
+./../../Blockchain-Tools/geth --datadir node2 --unlock "D40629c45138FD6f9cf7352fe85D85f6A0110aB2" --mine --port 30304 --bootnodes "enode://5cf310ee9fa03951cf882f3bb8b350a209cbee380501f50b2121f75213828b6c84e5e5188701330e9238d4c2383a4bdd93e97479bdab3568c40e1d2f3ce72929@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+
+Secrets:
+1. no firewall
+2. connect by priavte key
+32f077f288ba09a0af737fb882651f95eec3b42f60baf51d0f04179701fd0fdb
