@@ -12,7 +12,7 @@ from web3.middleware import geth_poa_middleware
 load_dotenv()
 mnemonic = os.getenv('MNEMONIC')
 
-command = f'php derive -g --mnemonic="{mnemonic}" --coin=btc-test  --numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=json'
+command = f'php hd-wallet-derive/hd-wallet-derive.php -g --mnemonic="{mnemonic}" --coin=btc-test  --numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=json'
 
 p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
 output, err = p.communicate()
@@ -20,7 +20,7 @@ p_status = p.wait()
 
 keys = json.loads(output)
 
-command_eth = f'php derive -g --mnemonic="{mnemonic}" --coin=eth  --numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=json'
+command_eth = f'php hd-wallet-derive/hd-wallet-derive.php -g --mnemonic="{mnemonic}" --coin=eth  --numderive=3 --cols=address,index,path,privkey,pubkey,pubkeyhash,xprv,xpub --format=json'
 p_eth = subprocess.Popen(command_eth, stdout=subprocess.PIPE, shell=True)
 output_eth, err_eth = p_eth.communicate()
 p_status_eth = p_eth.wait()
